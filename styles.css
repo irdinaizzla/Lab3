@@ -1,0 +1,34 @@
+.slideshow-container {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    justify-content: center; 
+    align-items: center;
+}
+
+.campus.fade {
+    display: none;
+}
+
+.campus.fade img {
+    width: 300px; 
+    height: auto;
+}
+
+
+.hb-container {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    justify-content: center; 
+    align-items: center;
+}
+
+.hob.fade {
+    display: none;
+}
+
+.hob.fade img {
+    width: 300px; 
+    height: auto; 
+}

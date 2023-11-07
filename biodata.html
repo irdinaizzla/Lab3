@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: rgb(59, 168, 211);
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        p{
+            background-image: url('./365608ecfdcf73c.jpg');
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+            background-color: #ffffff;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        th {
+            background-color: #9cadc7;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px; 
+        }
+
+        .profilephoto img{
+            width: 200px;
+            height: 250px;
+        }
+
+        #biodata, #campus-life, #hobbies {
+            background-color: rgba(255, 255, 255, 1); 
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+        .dashboard {
+            background-color: #333;
+            color: #fff;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .dashboard a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 30px;
+            font-size: 24px;
+            position: relative;
+            transition: all 0.3s;
+        }
+
+        .dashboard a::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background: #fff;
+            transition: all 0.3s;
+        }
+
+        .dashboard a:hover {
+            color: #c90eb0;
+        }
+
+        .dashboard a:hover::before {
+            width: 100%;
+        }
+
+        #content {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        h3 {
+            color: rgb(151, 37, 65);
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Dashboard</h1>
+
+    <div class="dashboard">
+        <a href="#biodata">Biodata</a>
+        <a href="#campus-life">Campus Life</a>
+        <a href="#hobbies">Hobbies</a>
+    </div>
+
+    <div id="content">
+    <section id="biodata">
+    <h2>My Biodata</h2>
+    
+    <table>
+        <tr>
+            <th>Full Name</th>
+            <td>Nur Irdina Izzla Binti Norazam</td>
+            <td class="profilephoto" style="text-align: center"> <img src="./pfpbeg.jpeg" alt="Profile Photo 1"></td>
+        
+        </tr>
+        <tr>
+            <th>Date of Birth</th>
+            <td colspan="2">2 January 2002</td>
+        </tr>
+        <tr>
+            <th>Religion</th>
+            <td colspan="2">Islam</td>
+        </tr>
+        <tr>
+            <th>Race</th>
+            <td colspan="2">Melayu</td>
+        </tr>
+        <tr>
+            <th rowspan="5">Address</th>
+        </tr>
+        <tr>
+            <td>Street</td>
+            <td>Lot 2121 Batu 6 1/2 Jalan Meru</td>
+        </tr>
+        <tr>
+            <td>Town</td>
+            <td>Meru</td>
+        </tr>
+        <tr>
+            <td>District</td>
+            <td>Klang</td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>Selangor</td>
+        </tr>
+        <tr>
+            <th rowspan="4">Contact</th>
+        </tr>
+        <tr>
+            <td>Mobile Phone</td>
+            <td>017-3058123</td>
+        </tr>
+        <tr>
+            <td>Social Media</td>
+            <td>Instagram, Twitter, Tiktok, WhatsApp</td>
+        </tr>
+        <tr>
+            <td>Website</td>
+            <td>Github</td>
+        </tr>
+
+        <tr>
+            <th>Course and Institution:</th>
+            <td colspan="2">Software Engineering in University Tun Hussein Onn Malaysia</td>
+        </tr>
+        <tr>
+            <th>Programming Skill:</th>
+            <td colspan="2">Java, HTML, CSS, C#, C+, C, Phyton</td>
+        </tr>
+        <tr>
+            <th>Personal Interests:</th>
+            <td colspan="2">Make delicious desserts like cakes, cupcakes and more</td>
+        </tr>
+        <tr>
+            <th>Future Plan in 2024:</th>
+            <td colspan="2">Enjoy every process in life and keep fighting!</td>
+        </tr>
+    </table>
+    </section>
+
+    <section id="campus-life">
+        <h2>Campus Life</h2>
+        <div class="slideshow-container">
+            <div class="campus fade">
+                <img src="./dsi1.jpeg" alt="Campus Photo 1">
+            </div>
+            <div class="campus fade">
+                <img src="./ptta.jpeg" alt="Campus Photo 2">
+            </div>
+            <div class="campus fade">
+                <img src="./jalanback.jpeg" alt="Campus Photo 3">
+            </div>
+            <div class="campus fade">
+                <img src="./km1.jpeg" alt="Campus Photo 4">
+            </div>
+            <div class="campus fade">
+                <img src="./hepfull.jpeg" alt="Campus Photo 5">
+            </div>
+            <div class="campus fade">
+                <img src="./f2.jpeg" alt="Campus Photo 6">
+            </div>
+            <div class="campus fade">
+                <img src="./cakarayam.jpeg" alt="Campus Photo 7">
+            </div>
+            <div class="campus fade">
+                <img src="./f22.jpeg" alt="Campus Photo 8">
+            </div>
+            <div class="campus fade">
+                <img src="./kk1.jpeg" alt="Campus Photo 9">
+            </div>
+            <div class="campus fade">
+                <img src="./jalan4.jpeg" alt="Campus Photo 10">
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <h3>Hanging Out with My Bestfriends</h3>
+        <div class="hb-container">
+            <div class="hob fade">
+                <img src="./hiking.jpeg" alt="Hobby Photo 1">
+            </div>
+            <div class="hob fade">
+                <img src="./raya1.jpeg" alt="Hobby Photo 2">
+            </div>
+            <div class="hob fade">
+                <img src="./icity1.jpeg" alt="Hobby Photo 3">
+            </div>
+            <div class="hob fade">
+                <img src="./wedding.jpeg" alt="Hobby Photo 4">
+            </div>
+            <div class="hob fade">
+                <img src="./eco.jpeg" alt="Hobby Photo 5">
+            </div>
+            <div class="hob fade">
+                <img src="./hiking2.jpeg" alt="Hobby Photo 6">
+            </div>
+            <div class="hob fade">
+                <img src="./icity2.jpeg" alt="Hobby Photo 7">
+            </div>
+            <div class="hob fade">
+                <img src="./sccc.jpeg" alt="Hobby Photo 8">
+            </div>
+            <div class="hob fade">
+                <img src="./raya2.jpeg" alt="Hobby Photo 9">
+            </div>
+        </div>
+    </section>
+
+    <script src="slideshow.js"></script>
+    </div>
+
+
+
+
+    
